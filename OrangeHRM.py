@@ -110,19 +110,16 @@ driver.find_element(By.XPATH, "//li[contains(@class, 'oxd-topbar-body-nav-tab') 
 time.sleep(pause)
 
 #Admin - Nationalities
-driver.find_element(By.XPATH, "//li[@class='oxd-topbar-body-nav-tab --visited']//a[contains(@class, 'oxd-topbar-body-nav-tab-item') and text()='Nationalities']").click()
-time.sleep(pause)
-
-
-
+#driver.find_element(By.XPATH, "//li[@class='oxd-topbar-body-nav-tab --visited']//a[contains(@class, 'oxd-topbar-body-nav-tab-item') and text()='Nationalities']").click()
+#time.sleep(pause)
 
 #Admin - Corporate Branding
-driver.find_element(By.XPATH,  "//li[@class='oxd-topbar-body-nav-tab']/a[text()='Corporate Branding']").click()# Click Nationalities
-time.sleep(pause)
+#driver.find_element(By.XPATH,  "//li[@class='oxd-topbar-body-nav-tab']/a[text()='Corporate Branding']").click()# Click Nationalities
+#time.sleep(pause)
 
 ##Admin - Configuration
-driver.find_element(By.XPATH,  "//ul[@class='oxd-dropdown-menu']//a[contains(text(), 'Configuration')]").click()# Click Configuration
-time.sleep(pause)
+#driver.find_element(By.XPATH,  "//ul[@class='oxd-dropdown-menu']//a[contains(text(), 'Configuration')]").click()# Click Configuration
+#time.sleep(pause)
 
 
 
